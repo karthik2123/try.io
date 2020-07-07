@@ -1,0 +1,1239 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> 
+<link href="https://fonts.googleapis.com/css2?family=Jura:wght@300&family=Lobster&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap" rel="stylesheet">
+<link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<!-- Font Awesome -->
+   
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<style type="text/css">
+			header{
+    background: url("https://assets.codepen.io/1462889/photo.jpeg") center center fixed;
+    color: #FFF;
+    height: 100vh;
+    position: relative;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -msn-background-size: cover;
+}
+		.navigation{
+  padding-top:30px;
+  padding-bottom:30px;
+  position:absolute;
+  top:0;
+  width:100%;
+  z-index:1;
+}
+
+.navbar-right{
+  float:right;
+  padding-right:10%;
+}
+
+.navbar-right a{
+  text-decoration:none;
+  padding:10px;
+  color: #fff;
+  font-family:Arial;
+  font-weight:900;
+}
+
+.navbar-right a:hover{
+  text-decoration:underline;
+}
+.navbar-logo{
+  padding-left:0%;
+  position: absolute;
+  top: -40%;
+  
+  font-family:Arial;
+  font-size:30px;
+  font-weight:bold;
+  text-decoration:none;
+  color:#fff; 
+}
+
+.video-container {
+z-index: -100;
+width:100%;
+height:75%;
+overflow:hidden;
+position:absolute;
+top:0;
+left:0;
+}
+
+#video-bg{
+  width:100%;
+ 
+}
+
+.portfolio-section{
+  margin-top:50%;
+}
+.tagline-left{
+  float:left;
+  width:50%;
+  text-align:center;
+}
+
+.tagline-right{
+  float:right;
+  width:50%;
+  text-align:center;
+}
+
+.tagline-video{
+  width:75%;
+}
+
+.tagline-right-text{
+ position:absolute;
+ margin-top:9%;
+ text-align:center;
+ margin-left:17%;
+font-family:Arial;
+ color:#fff;
+  width:290px;
+  font-size:40px;
+}
+
+.tagline-left-text{
+ position:absolute;
+ margin-top:9%;
+ text-align:center;
+ margin-left:11%;
+font-family:Arial;
+ color:#fff;
+  width:375px;
+  font-size:40px;
+}
+h1{
+	font-size: 100px;
+	position: absolute;
+	top: 20vw;
+	left: 3%;
+  max-width: 100vw;
+  width: 100%;
+
+}
+h4{
+  font-size: 40px;
+  position: absolute;
+  width: 100%;
+
+  
+  top: 32vw !important;
+  left: 5% !important;;
+  max-width: 100vw;
+  letter-spacing: 1px;
+  font-family:"Lobster";
+}
+
+h3{
+  font-size: 40px;
+  position: absolute;
+  width: 100%;
+
+  
+
+  left: 5% !important;;
+
+  letter-spacing: 1px;
+  font-family:"Lobster";
+
+
+}
+
+.body{
+      background: #282828;
+      font-family: tahoma;
+      text-align: justify;
+      overflow: hidden;
+      
+    }
+   
+    #about{
+      padding-top: 98px;
+      padding-bottom: 90px;
+    }
+   
+    #about .triangle-right{
+      margin-top: 95px;
+      width: 0;
+      height: 0;
+      border-top: 259px solid transparent;
+      border-left: 470px solid #d6c6b2;
+      border-bottom: 259px solid transparent;
+      
+      
+    }
+   
+    #about .triangle-right img{
+      position: absolute;
+      left: -1px;
+      top: 81px;
+      width: 74%;
+     
+    }
+   
+    .fa-play{
+      font-size: 100px;
+      
+    }
+    
+    
+    #about .p-first{
+      margin-bottom: 30px;
+    }
+    
+    
+    #about h2{
+      margin-bottom: 47px;
+      margin-top: 12px;
+      
+    }
+    
+    
+    #about .social-link-text{
+      margin-top: 50px;
+      margin-bottom: 25px;      
+      
+    }
+    
+    #about .about-link{
+      padding-left: 0px;
+    }
+    
+    #about .about-link li{
+      display: inline-block;
+    }
+    
+    #about .about-link li a i{
+      width: 50px;
+      height: 50px;
+      border-radius: 50%;
+      line-height: 50px;
+      text-align: center;
+      border: 1px solid #d6c6b2;
+      margin-right: 10px;
+      font-size: 22px;
+      color: #d6c6b2;
+      transition: all .3s;
+      
+    }
+    
+    
+    #about .about-link li a i:hover{
+      color: #222222;
+      background: #d6c6b2;
+      border-color: #d6c6b2;
+      
+    }
+   
+    
+    #about .about-img{
+      position: relative;
+      
+    }
+    
+    #about .about-img{
+      position: relative;
+      
+    }
+    
+    #about .about-img .man{
+      position: absolute;
+      bottom: 159px;
+      top: 12px;
+      left: -2px;
+      
+    }
+    
+    .color-3{
+      color: #d6c6b2;
+    }
+    
+    
+    .text-white{
+      color: white;
+    }
+    
+    
+    p{
+      margin-bottom: 0;
+      font-size: 16px;
+      line-height: 24px;
+      color: #d6c6b2;b
+    }
+    
+    .btn-danger{
+      border-radius: 0;
+      padding: 10px 20px;
+    }
+    
+    
+
+           body { 
+                margin:2px, 2px; 
+                padding:4px; 
+               
+                overflow-x: hidden; 
+                overflow-y: auto; 
+                text-align:justify; 
+            } 
+
+
+
+
+   
+
+
+  *{
+  margin: 0;
+  padding: 0;
+  font-family: "montserrat",sans-serif;
+  box-sizing: border-box;
+}
+
+.services-section{
+  background: url(https://assets.codepen.io/1462889/photo.jpeg);
+  background-size: cover;
+  padding: 60px 0;
+}
+.inner-width{
+  width: 100%;
+  max-width: 1200px;
+  margin: auto;
+  padding: 0 20px;
+  overflow: hidden;
+}
+.section-title{
+  text-align: center;
+  color: #ddd;
+  text-transform: uppercase;
+  font-size: 30px;
+  position: relative;
+  top: 197%;
+  left: 0%;
+}
+.border{
+  width: 160px;
+  height: 2px;
+  background: #82ccdd;
+  margin: 40px auto;
+}
+.services-container{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.service-box{
+  max-width: 33.33%;
+  padding: 10px;
+  text-align: center;
+  color: #ddd;
+  cursor: pointer;
+}
+
+.service-icon{
+  display: inline-block;
+  width: 70px;
+  height: 70px;
+  border: 3px solid #82ccdd;
+  color: #82ccdd;
+  transform: rotate(45deg);
+  margin-bottom: 30px;
+  margin-top: 16px;
+  transition: 0.3s linear;
+}
+.service-icon i{
+  line-height: 70px;
+  transform: rotate(-45deg);
+  font-size: 26px;
+}
+.service-box:hover .service-icon{
+  background: #82ccdd;
+  color: #ddd;
+}
+.service-title{
+  font-size: 18px;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+.service-desc{
+  font-size: 14px;
+}
+
+@media screen and (max-width:960px) {
+  .service-box{
+    max-width: 45%;
+  }
+}
+
+@media screen and (max-width:768px) {
+  .service-box{
+    max-width: 50%;
+  }
+}
+
+@media screen and (max-width:480px) {
+  .service-box{
+    max-width: 100%;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+.myfooter{
+  width:100%;
+  position:fixed;
+  border-top:1px solid #aaa;
+  bottom:-120px;
+  background-color:black;
+  height:155px;
+  font-family:sans-serif;
+  transition:all 0.2s ease;
+  padding-left:20px;
+  text-align:center;
+
+}
+
+.myfooter:hover{
+  bottom:0;
+}
+
+.myfooter h1{
+  color:yellow;
+  margin:0;
+  float:left;
+  width:100%;
+  height:15px;
+  padding:10px 0 10px 0;
+  text-align:center;
+  font-size:12pt;
+  text-transform:uppercase;
+  letter-spacing:5px;
+  word-spacing:15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    .cards-list {
+  z-index: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.card {
+  margin: 30px auto;
+  width: 300px;
+  height: 300px;
+  border-radius: 40px;
+box-shadow: 5px 5px 30px 7px rgba(0,0,0,0.25), -5px -5px 30px 7px rgba(0,0,0,0.22);
+  cursor: pointer;
+  transition: 0.4s;
+}
+
+.card .card_image {
+  width: inherit;
+  height: inherit;
+  border-radius: 40px;
+}
+
+.card .card_image img {
+  width: inherit;
+  height: inherit;
+  border-radius: 40px;
+  object-fit: cover;
+}
+
+.card .card_title {
+  text-align: center;
+  border-radius: 0px 0px 40px 40px;
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 30px;
+  margin-top: -80px;
+  height: 40px;
+}
+
+.card:hover {
+  transform: scale(0.9, 0.9);
+  box-shadow: 5px 5px 30px 15px rgba(0,0,0,0.25), 
+    -5px -5px 30px 15px rgba(0,0,0,0.22);
+}
+
+.title-white {
+  color: white;
+}
+
+.title-black {
+  color: black;
+}
+
+@media all and (max-width: 1000px) {
+  .card-list {
+    /* On small screens, we are no longer using row direction but column */
+    flex-direction: column;
+  }
+}
+.cards-list
+{
+  /*
+  background: url('bg.jpg');
+  */
+  background-color:  #D3D3D3;
+
+ 
+  overflow: hidden;
+  top: 20%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      .contact-section{
+  margin: 0;
+  padding: 0;
+  font-family: "montserrat",sans-serif;
+}
+.contact-section{
+  background: url(bg.png) no-repeat center;
+  background-size: cover;
+  padding: 40px 0;
+}
+.contact-section h1{
+  text-align: center;
+  color: #ddd;
+}
+.border{
+  width: 100px;
+  height: 10px;
+  background: #34495e;
+  margin: 40px auto;
+}
+
+.contact-form{
+  max-width: 600px;
+  margin: auto;
+  padding: 0 10px;
+  overflow: hidden;
+}
+
+.contact-form-text{
+  display: block;
+  width: 100%;
+  box-sizing: border-box;
+  margin: 16px 0;
+  border: 0;
+  background: #111;
+  padding: 20px 40px;
+  outline: none;
+  color: #ddd;
+  transition: 0.5s;
+}
+.contact-form-text:focus{
+  box-shadow: 0 0 10px 4px #34495e;
+}
+textarea.contact-form-text{
+  resize: none;
+  height: 120px;
+}
+.contact-form-btn{
+  float: right;
+  border: 0;
+  background: #34495e;
+  color: #fff;
+  padding: 12px 50px;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+.contact-form-btn:hover{
+  background: #FFFFFFFF;
+}
+.ka{
+  color: white;
+  font-size: 50px;
+  text-align: center;
+  font-family: Lobster;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,500,300,700);
+
+* {
+  font-family: Open Sans;
+}
+
+.section {
+  width: 100%;
+  display: inline-block;
+  background: #333;
+  height: 50vh;
+  text-align: center;
+  font-size: 22px;
+  font-weight: 700;
+  text-decoration: underline;
+}
+
+.footer-distributed{
+    background: #666;
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+    box-sizing: border-box;
+    width: 100%;
+    text-align: left;
+    font: bold 16px sans-serif;
+    padding: 55px 50px;
+}
+
+.footer-distributed .footer-left,
+.footer-distributed .footer-center,
+.footer-distributed .footer-right{
+    display: inline-block;
+    vertical-align: top;
+}
+
+/* Footer left */
+
+.footer-distributed .footer-left{
+    width: 40%;
+}
+
+/* The company logo */
+
+.footer-distributed h3{
+    color:  #ffffff;
+    font: normal 36px 'Open Sans', cursive;
+    margin: 0;
+}
+
+.footer-distributed h3 span{
+    color:  lightseagreen;
+}
+
+/* Footer links */
+
+.footer-distributed .footer-links{
+    color:  #ffffff;
+    margin: 30px 0 20px;
+    padding: 23px;
+}
+
+.footer-distributed .footer-links a{
+    display:inline-block;
+    line-height: 1.8;
+  font-weight:400;
+    text-decoration: none;
+    color:  inherit;
+}
+
+.footer-distributed .footer-company-name{
+    color:  #222;
+    font-size: 14px;
+    font-weight: normal;
+   
+    bottom:0%;
+}
+
+/* Footer Center */
+
+.footer-distributed .footer-center{
+    width: 35%;
+}
+
+.footer-distributed .footer-center i{
+    background-color:  #33383b;
+    color: #ffffff;
+    font-size: 25px;
+    width: 38px;
+    height: 38px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 42px;
+    margin: 10px 15px;
+    vertical-align: middle;
+}
+
+.footer-distributed .footer-center i.fa-envelope{
+    font-size: 17px;
+    line-height: 38px;
+}
+.footer-distributed .footer-center p{
+    display: inline-block;
+    color: #ffffff;
+  font-weight:400;
+    vertical-align: middle;
+    margin:0;
+}
+
+.footer-distributed .footer-center p span{
+    display:block;
+    font-weight: normal;
+    font-size:14px;
+    line-height:2;
+}
+.footer-distributed .footer-center p a{
+    color:  lightseagreen;
+    text-decoration: none;;
+}
+.footer-distributed .footer-links a:before {
+  content: "|";
+  font-weight:300;
+  font-size: 20px;
+  left: 0;
+  color: #fff;
+  display: inline-block;
+  padding-right: 5px;
+}
+.footer-distributed .footer-links .link-1:before {
+  content: none;
+}
+/* Footer Right */
+.footer-distributed .footer-right{
+    width: 20%;
+}
+
+.footer-distributed .footer-company-about{
+    line-height: 20px;
+    color:  #92999f;
+    font-size: 13px;
+    font-weight: normal;
+    margin: 0;
+}
+
+.footer-distributed .footer-company-about span{
+    display: block;
+    color:  #ffffff;
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+
+@media (max-width: 480px) {    .navbar-logo{
+  display:none;
+}/*
+ If you don't want the footer to be responsive, remove these media queries */
+
+@media (max-width: 880px) {
+
+    .footer-distributed{
+        font: bold 14px sans-serif;
+    }
+
+    .footer-distributed .footer-left,
+    .footer-distributed .footer-center,
+    .footer-distributed .footer-right{
+        display: block;
+        width: 100%;
+        margin-bottom: 40px;
+        text-align: center;
+    }
+
+    .footer-distributed .footer-center i{
+        margin-left: 0;
+    }
+
+}
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	</style>
+	<title>geeta studio</title>
+</head>
+<body>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<header>
+  <div class="header">
+  	
+    <nav class="navigation">
+    	
+      <a href="#" class="navbar-logo" style="font-family:Times New Roman; "><img style="height: 200px;" src="logo_transparent.png"></a>
+      <div class="navbar-right">
+        <a href="index.html">Home</a>
+        <a href="#about">About US</a>
+        <a href="#service">Our Services</a>
+        <a href="#Pricing">Pricing</a>
+
+        <a href="#contact">Contact Us</a>
+                    </div>
+
+    </nav>
+      <h1 style="font-family:Lobster">Geeta Studio</h1>
+      
+
+
+
+<h3 style="bottom: 23%; position: absolute;">we capture memories forever</h3>
+
+  </div>
+</header id='Home'>
+<div class="body">
+  <section id="about">
+    
+  <div class="container">
+    <div class="row">
+    <div class="col-md-5">
+      <div class="about-img">
+            <img class="shape" style="height:380px; width: 380px; border-radius: 50%; " src="StockSnap_NU4T8BJ9XB.jpg" alt="">
+            
+            <img class="man" src="" alt="">
+            
+      </div>
+    </div>
+    <br>
+    <div class="col-md-7 about-right">
+      
+      <h5 class="color-3" style="font-size: 50px; font-family:Lobster;"><b>About Us</b>
+      </h5>
+      
+      <p class="p-first text-white">
+        I am Santosh heman the founder of geeta studio . our shop is in govandi .we have been in this field from a quite a long time we do everything from making passport size photo to clicking photos of big weddding function 
+      </p>
+      <p class="text-white">
+        
+      </p>
+      <h3 class="color-3 social-link-text">
+        <a href="#contact"><button class="btn btn-danger">Contact Us</button></a>
+      </h3>
+      
+      <ul class="about-link">
+        <li><a href=""><i class="fa fa-fonticons"></i></a></li>
+        
+        <li><a href=""><i class="fa fa-envira"></i></a></li>
+        
+        
+        <li><a href=""><i class="fa fa-reddit-alien"></i></a></li>
+        
+        
+        <li><a href=""><i class="fa fa-dribbble"></i></a></li>
+        
+        
+        <li><a href=""><i class="fa fa-youtube-play"></i></a></li>
+     
+      </ul>
+     
+      
+    </div>
+   
+    </div>
+  </div>
+  
+ 
+  </section>
+
+</div>
+
+
+
+
+
+  
+
+
+  <section id="service">
+    <div class="services-section">
+      <div class="inner-width">
+        <h1 class="section-title">Our Services</h1>
+        <div class="border"></div>
+        <div class="services-container">
+
+          <div class="service-box">
+            <div class="service-icon">
+              <i class="fa fa-file-picture-o"></i>
+            </div>
+            <div class="service-title">Passport Photo</div>
+            <div class="service-desc">
+              we provide all kind of passport photos including all the vissa photos,bank photos of all shape and sizes 
+            </div>
+          </div>
+
+          <div class="service-box">
+            <div class="service-icon">
+              <i class="fa fa-heart"> </i>
+            </div>
+            <div class="service-title">Wedding</div> 
+            <div class="service-desc">
+              we do pre-wedding shoots ,wedding, enagement and all other marriage function we charge wrt to time
+            </div>
+          </div>
+
+          <div class="service-box">
+            <div class="service-icon">
+              <i class="fas fa-school"></i>
+            </div>
+            <div class="service-title">school function</div>
+            <div class="service-desc">
+              we do school class photo and school event photos we will charge acc .for knowning the rates plz contact us
+            </div>
+          </div>
+
+          <div class="service-box">
+            <div class="service-icon">
+              <i class="fa fa-birthday-cake"></i>
+            </div>
+            <div class="service-title">birthday</div>
+            <div class="service-desc">
+              we do birthday photos and we charge wrt time for rates please check our price section
+            </div>
+          </div>
+
+          <div class="service-box">
+            <div class="service-icon">
+              <i class="fab fa-whatsapp"></i>
+            </div>
+            <div class="service-title">Mobile photos</div>
+            <div class="service-desc">
+              in this pharse of this lockdown ,you can provide photos via whataap and we will provide printout for further info contact on our number give below
+            </div>
+          </div>
+
+          <div class="service-box">
+            <div class="service-icon">
+              <i class="far fa-object-group"></i>
+            </div>
+            <div class="service-title">collage</div>
+            <div class="service-desc">
+              we make collages,photo lamination of diferent sizes  
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<section id="Pricing">
+<div class="cards-list" >
+
+
+   <h1 style="color: black; font-size: 35px; font-family:Times New Roman " class="section-title">Pricing</h1>
+        <div style="position:fixed; top:305%" class="border"></div>
+        <br>
+        <br>
+<a href="aboutus.html">       
+<div class="card 1">
+  <div class="card_image"> <img style="background-color: #000000FF;" src="e.jpg" /> </div>
+  <div class="card_title title-white">
+    <p style="font-size: 30px; color: white; ">prices of order photo</p>
+  </div>
+</div>
+</a> 
+  <div class="card 2">
+  <div style="background-color: black;" class="card_image">
+    <img style="height: 300px;" src="austrian-national-library-A3FNnZ55bR8-unsplash.jpg">
+    </div>
+  <div class="card_title title-white">
+    <p style="color: white; font-size: 30px;">school and all function prices</p>
+  </div>
+</div>
+
+<div class="card 3">
+  <div style="background-color: black;" class="card_image">
+    <img style="height: 290px; " src="allec-gomes-2F3JgwHM0nU-unsplash.jpg" />
+  </div>
+  <div class="card_title">
+    <p style="font-style: 30px;   color: white;"><b style="font-size: 30px;">Passport size photo prices</p></b>
+  </div>
+</div>
+  
+<div class="card 3">
+  <div style="background-color: black;" class="card_image">
+    <img style="height: 290px; background-size: cover; -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%); -webkit-background-size: cover " src="photo-of-woman-near-cake-2689912.jpg" />
+  </div>
+  <div class="card_title">
+    <p style="font-style: 30px;   color: white;"><b style="font-size: 30px;">birthday photo prices</p></b>
+  </div>
+</div>
+  
+</div></div>
+</div>
+</section>
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<section id="contact">
+<div class="contact-section">
+
+  <h6 class="ka">Contact Us</h6>
+  <div class="border"></div>
+  <form class="contact-form"
+  action="https://formspree.io/xknqvkoj"
+  method="POST"
+>
+    <input type="text" class="contact-form-text"  name="_message" placeholder="Your name">
+    <input type="email" class="contact-form-text" name="_replyto" placeholder="Your email">
+    <input type="text" class="contact-form-text" name="_message" placeholder="Your phone">
+    <textarea class="contact-form-text" placeholder="Type of Photo"></textarea>
+    <input type="submit" class="contact-form-btn"name="_message" value="Send">
+  </form>
+</div>
+
+
+
+  <div class="myfooter">
+    <h1></h1>
+    <div class="contact">
+      <p><b style=" font-size: 30px; font-family: Arial, Helvetica, sans-serif;">Contact+Information</b><br><a href="tel:7039291795">ph no:-7039291795</a> <br><br> 
+        <p><a href = "mailto:karthiksantosh2521@gmail.com ">Send Email:-karthiksantosh2521@gmail.com</a></p>
+        <address style="font-size: 20px; color: white;">Address:- Shree Building, Shop No-3, Shilpa Mumbai, Ranade Rd, Dadar West, Kurla, Mumbai, Maharashtra 400088</address>
+    </div>
+</p>
+</div>
+
+</div>
+</section>
+</section>
+
+
+<footer class="footer-distributed">
+  <section>
+        <div class="footer-left">
+
+                <h3><span><img style="height: 250px; position: relative; bottom: -30%;" src=></span></h3>
+                <div >
+
+                <p class="footer-links">
+                    <a href="index.html">Home</a>
+                    
+                    <a href="#about">about us</a>
+                    <a href="#service">our service</a>
+                
+                    <a href="#Pricing">Pricing</a>
+                
+                    
+                    
+                    
+                    <a href="#contact">Contact us</a>
+                </p>
+</div>
+                <p  class="footer-company-name">geeta studio © 2020</p>
+            </div>
+
+            <div class="footer-center">
+
+                <div>
+                    <i class="fa fa-map-marker"></i>
+                    <p><span>Shree Building, Shop No-3, Shilpa Mumbai, Ranade Rd, Dadar West, Kurla,Mumbai, Maharashtra 400088</p>
+                </div>
+
+                <div>
+                    <i class="fa fa-phone"></i>
+                    <p tel:7039291795>7039291795</p>
+                </div>
+
+                <div>
+                    <i class="fa fa-envelope"></i>
+                    <p><a href="mailto:karthiksantosh2521@gmail.com">karthiksantosh2521gmail.com</a></p>
+                </div>
+
+            </div>
+
+            <div class="footer-right">
+
+                <p  class="footer-company-about">
+                    <span>About Us</span>
+                    I am Santosh heman the founder of geeta studio . our shop is in govandi .we have been in this field from a quite a long time we do everything from making passport size photo to clicking photos of big weddding function   
+                </p>
+                
+
+                <div class="footer-icon">
+                  <div class="col-md-7 about-right">
+                   <ul style="font-size: 25px; " class="about-link">
+                    <a href=""><i style="color: black;" class="fa fa-fonticons"></i></a>
+                    
+                    <a href=""><i style="color: black;" class="fa fa-dribbble"></i></a>
+                    </ul>
+                  </ul>
+
+                </div>
+
+            </div>
+</div>
+</div>
+</span>
+</p>
+</div>
+</div>
+</footer>
+</section>
+</section>
+</footer>
+</p>
+</div>
+</div>
+</p>
+</div>
+</div>
+</div>
+</section>
+</section>
+
+</body>
+</html>
